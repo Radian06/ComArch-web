@@ -1,10 +1,11 @@
-import Main from "./pages/home.jsx"; // 페이지 파일 불러오기
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/home.jsx";
 
 function App() {
   return (
-    <>
-      <Main />
-    </>
+    <Routes>
+      <Route path="/" element={<Home />} />
+    </Routes>
   );
 }
 

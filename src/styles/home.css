@@ -2,9 +2,75 @@
     width: 100vw;
     height: 100vh;
 
+    display: flex;
+
     /*background-image: ;*/
 }
 
+/* 왼쪽 박스 */
+.home_leftBox {
+    width: 50%;
+    height: 100%;
+    
+    background-color: antiquewhite;
+}
+
+/* 오른쪽 박스 */
+.home_rightBox {
+    width: 50%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: aquamarine;
+}
+
 .home_title {
-    font-size: 6vh;
+    font-size: 13vh;
+    font-weight: bold;
+    color: #FDFFCA;
+}
+
+.home_subTitle {
+    margin-bottom: 3vh;
+
+    font-size: 2vh;
+    color: white;
+}
+
+.home_start {
+    width: 16vw;
+    height: 5vh;
+    margin-bottom: 2vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(135deg, #F8C65F, #241276);
+    border: 0.6vh solid #FDFFCA;
+    border-radius: 2vh;
+    color: #FDFFCA;
+}
+
+.home_account_box {
+    width: 12vw;
+    height: 1.8vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2vw;
+
+    text-decoration: none;
+    font-size: 1.6vh;
+    color: white;
+}
+
+.home_account, .home_account:hover {
+    text-decoration: none;
+    color: white;
 }
