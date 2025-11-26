@@ -1,11 +1,12 @@
 import "../styles/home.css"
 import { Link } from "react-router-dom";
+import Lens from "../assets/lensImg.png";
 
 function Home() {
   return (
     <div className="home_page">
       <div className="home_leftBox">
-
+        <img src={Lens} className="home_lens" />
       </div>
 
       <div className="home_rightBox">

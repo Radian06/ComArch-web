@@ -4,15 +4,26 @@
 
     display: flex;
 
-    /*background-image: ;*/
+    background-image: url('../assets/bgHome.png');
+    background-size: 100%;
+    overflow-y: hidden;
 }
 
 /* 왼쪽 박스 */
 .home_leftBox {
     width: 50%;
     height: 100%;
-    
-    background-color: antiquewhite;
+
+    position: relative;
+}
+
+.home_lens {
+    width: 60vw;
+    height: auto;
+
+    position: absolute;
+    top: 18vh;
+    left: -4vw;
 }
 
 /* 오른쪽 박스 */
@@ -24,8 +35,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    background-color: aquamarine;
 }
 
 .home_title {
