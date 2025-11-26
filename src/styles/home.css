@@ -45,9 +45,13 @@
 }
 
 .home_title {
+    margin-top: 8vh;
+
     font-size: 13vh;
     font-weight: bold;
     color: #FDFFCA;
+
+    cursor: none;
 }
 
 .home_subTitle {
@@ -55,6 +59,8 @@
 
     font-size: 2vh;
     color: white;
+
+    cursor: none;
 }
 
 .home_start {
@@ -67,8 +73,14 @@
     align-items: center;
 
     background: linear-gradient(135deg, #F8C65F, #241276);
-    border: 0.6vh solid #FDFFCA;
-    border-radius: 2vh;
+    border: 0.4vh solid #FDFFCA;
+    border-radius: 2.5vh;
+    color: #FDFFCA;
+    font-size: 3vh;
+}
+
+.home_start:hover {
+    text-decoration: none;
     color: #FDFFCA;
 }
 
