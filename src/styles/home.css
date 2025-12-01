@@ -63,30 +63,10 @@
     cursor: none;
 }
 
-.home_start {
-    width: 16vw;
-    height: 5vh;
-    margin-bottom: 2vh;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    background: linear-gradient(135deg, #F8C65F, #241276);
-    border: 0.4vh solid #FDFFCA;
-    border-radius: 2.5vh;
-    color: #FDFFCA;
-    font-size: 3vh;
-}
-
-.home_start:hover {
-    text-decoration: none;
-    color: #FDFFCA;
-}
-
 .home_account_box {
     width: 12vw;
     height: 1.8vh;
+    margin-top: 2vh;
 
     display: flex;
     justify-content: center;

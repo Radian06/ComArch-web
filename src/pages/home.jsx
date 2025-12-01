@@ -1,5 +1,6 @@
 import "../styles/home.css"
 import "../styles/headerWhole.css"
+import "../styles/default.css"
 import { Link } from "react-router-dom";
 import Lens from "../assets/lensImg.png";
 import Footer from "../components/footer.jsx";
@@ -12,7 +13,7 @@ function Home() {
         <div className="home_rightBox">
           <div className="home_title">Truth Lens</div>
           <div className="home_subTitle">세상을 보는 눈, 더 이상 AI가 쓴 가짜 뉴스에 속지 마세요.</div>
-          <Link to ='/inspection' className="home_start">시작하기</Link>
+          <Link to ='/inspection' className="default_btn">시작하기</Link>
           <div className="home_account_box">
             <Link to = '/join' className="home_account">회원가입</Link>
             /

@@ -17,7 +17,7 @@ function Inspection() {
       <div className="inspection_body">
         <div className="inspection_title">URL을 입력해주세요.</div>
         <input className="inspection_input" placeholder="여기에 입력"></input>
-        <div className="inspection_btn">검사하기</div>
+        <div className="default_btn">검사하기</div>
       </div>
       <Footer />
     </div>

@@ -1,0 +1,21 @@
+.default_btn {
+    min-width: 12vw;
+    min-height: 3vh;
+    padding: 0.5vh 2vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(135deg, #F8C65F, #241276);
+    border: 0.4vh solid #FDFFCA;
+    border-radius: 3vh;
+    color: #FDFFCA;
+    font-size: 3vh;
+    box-shadow: 0.6vh 0.8vh 0.66vh rgba(0,0,0,0.2);
+}
+
+.default_btn:hover {
+    text-decoration: none;
+    color: #FDFFCA;
+}
