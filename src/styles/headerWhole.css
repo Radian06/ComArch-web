@@ -1,0 +1,29 @@
+/* 상단 공통 */
+.header {
+    width: 96vw;
+    height: 3vh;
+    padding: 2vh 2vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.back_btn {
+    font-size: 2vh;
+    color: #241276;
+}
+
+.nav_box {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2vw;
+
+    font-size: 2.5vh;
+    text-shadow: 0.15vh 0.25vh 0.2vh rgba(0,0,0,0.13);
+}
+
+.nav_select {
+    font-size: 2.5vh;
+    color: #241276;
+}

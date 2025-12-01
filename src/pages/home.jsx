@@ -1,4 +1,5 @@
 import "../styles/home.css"
+import "../styles/headerWhole.css"
 import { Link } from "react-router-dom";
 import Lens from "../assets/lensImg.png";
 import Footer from "../components/footer.jsx";
