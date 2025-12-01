@@ -19,9 +19,33 @@
     height: 84vh;
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 3vh;
+}
 
-    background-color: aliceblue;
+.inspection_title {
+    font-size: 6vh;
+    font-weight: bold;
+    color: #FDFFCA;
+}
+
+.inspection_input {
+    all: unset;
+
+    width: 46vw;
+    height: 3vh;
+    padding: 2vh 2vw;
+
+    display: flex;
+    align-items: center;
+
+    background-color: #FDFFCA;
+    font-size: 2vh;
+    border-radius: 5vh;
+}
+
+.inspection_btn {
+    
 }
