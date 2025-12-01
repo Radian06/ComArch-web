@@ -29,6 +29,7 @@
     font-size: 6vh;
     font-weight: bold;
     color: #FDFFCA;
+    text-shadow: 0.6vh 0.8vh 0.66vh rgba(0,0,0,0.2);
 }
 
 .inspection_input {
@@ -44,8 +45,5 @@
     background-color: #FDFFCA;
     font-size: 2vh;
     border-radius: 5vh;
-}
-
-.inspection_btn {
-    
+    box-shadow: 0.6vh 0.8vh 0.66vh rgba(0,0,0,0.2);
 }
