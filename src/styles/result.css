@@ -11,3 +11,30 @@
     background-size: 100%;
     overflow-y: hidden;
 }
+
+/* 중앙 */
+.result_body {
+    width: 100%;
+    height: 84vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3vh;
+}
+
+.result_title {
+    font-size: 8vh;
+    font-weight: bold;
+    color: #FDFFCA;
+    text-shadow: 0.6vh 0.8vh 0.66vh rgba(0,0,0,0.2);
+}
+
+.result_container {
+    width: 80vw;
+    height: 60vh;
+
+    background-color: #FDFFCA;
+    border-radius: 5vh;
+}
