@@ -12,7 +12,7 @@ function Login() {
     <div className="account_body">
         <div className="account_title">로그인</div>
         <input className="account_input" placeholder="아이디 또는 이메일"></input>
-        <input className="account_input" placeholder="비밀번호"></input>
+        <input type="password" className="account_input" placeholder="비밀번호"></input>
         <div className="default_btn">확인</div>
         <div className="account_box">
             <Link to = '/join' className="account_nav">회원가입</Link>
